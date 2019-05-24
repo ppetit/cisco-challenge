@@ -12,8 +12,9 @@ Installation
 To resolve any potential dependency problems,
 this application is better used as a containerized
 application. Please follow the simplle installation
-steps below to build your application as a Docker container.
-The installation of Docker on your computer is not covered in this guide.
+steps below to build your application as a Docker image.
+Please note that he installation of Docker on your computer
+is not covered in this installation.
 
 Clone the repository in a directory on your computer
 -------------------------------------------------
@@ -24,7 +25,7 @@ Clone the repository in a directory on your computer
 Build your container
 --------------------
 
-# cd movie-rating
+# cd cisco-challenge
 # docker build -t movie-rating .
 
 If no error where thrown at this point, you should be all
@@ -35,9 +36,10 @@ Usage
 =====
 
 # docker run movie-rating -t "star wars"
+
 Star Wars: Episode IV - A New Hope:
         Released: 25 May 1977
         Rated: PG
         Rotten Tomatoes rating: 93%
 
-What else could it be ;) !!!
+What else could it be !!!
