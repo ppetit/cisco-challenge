@@ -1,21 +1,43 @@
-***************
-movie-rating.py
-***************
+============
+movie-rating
+============
 
-This program can be used to get a movie rating.
-  Underneath, it uses the OMDB API to get rating
-  information about movies from the OMDB database.
+This program can be used to get the rating of a movie.
+Underneath, it uses the `OMDB API <http://www.omdbapi.com/>`_
+to get information about movies from the OMDB database.
 
+============
 Installation
 ============
+To resolve any potential dependency problems,
+this application is better used as a containerized
+application. Please follow the simplle installation
+steps below to build your application as a Docker container.
+The installation of Docker on your computer is not covered in this guide.
 
-Dependencies
-============
+Clone the repository in a directory on your computer
+-------------------------------------------------
 
-- omdb>=0.10.1
-- python3
+# git clone `https://github.com/ppetit/cisco-challenge.git
+<https://github.com/ppetit/cisco-challenge.git>`_
 
+Build your container
+--------------------
+
+# cd movie-rating
+# docker build -t movie-rating .
+
+If no error where thrown at this point, you should be all
+set !
+
+=====
 Usage
 =====
 
-movie-rating.py -t <movie title> [-h]
+# docker run movie-rating -t "star wars"
+Star Wars: Episode IV - A New Hope:
+        Released: 25 May 1977
+        Rated: PG
+        Rotten Tomatoes rating: 93%
+
+What else could it be ;) !!!
