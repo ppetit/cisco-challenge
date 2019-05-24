@@ -26,6 +26,7 @@ Build your container
 --------------------
 
 # cd cisco-challenge
+
 # docker build -t movie-rating .
 
 If no error where thrown at this point, you should be all
