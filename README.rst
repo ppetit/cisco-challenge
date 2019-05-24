@@ -38,8 +38,11 @@ Usage
 # docker run movie-rating -t "star wars"
 
 Star Wars: Episode IV - A New Hope:
+
         Released: 25 May 1977
+
         Rated: PG
+
         Rotten Tomatoes rating: 93%
 
 What else could it be !!!
