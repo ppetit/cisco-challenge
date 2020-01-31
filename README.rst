@@ -13,7 +13,7 @@ To resolve any potential dependency problems,
 this application is better used as a containerized
 application. Please follow the simplle installation
 steps below to build your application as a Docker image.
-Please note that he installation of Docker on your computer
+Please note that the installation of Docker on your computer
 is not covered in this installation.
 
 Clone the repository in a directory on your computer
