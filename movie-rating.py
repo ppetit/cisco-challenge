@@ -39,7 +39,6 @@ def get_rating(movie, source):
   return
 
 def main(argv):
-
   title = ''
   try:
     opts, args = getopt.getopt(argv,"ht:", ["title=", "help"])
