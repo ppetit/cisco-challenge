@@ -36,10 +36,9 @@ def get_rating(movie, source):
   for rating in ratings:
     if rating.get('source') == source:
       return(rating.get('value'))
-  return('N/A')
+  return('')
 
 def main(argv):
-
   title = ''
   try:
     opts, args = getopt.getopt(argv,"ht:", ["title=", "help"])
