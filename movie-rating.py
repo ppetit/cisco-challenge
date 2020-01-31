@@ -36,7 +36,7 @@ def get_rating(movie, source):
   for rating in ratings:
     if rating.get('source') == source:
       return(rating.get('value'))
-  return('N/A')
+  return
 
 def main(argv):
 
